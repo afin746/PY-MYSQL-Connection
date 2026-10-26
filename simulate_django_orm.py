@@ -2,7 +2,6 @@ import mysql.connector
 
 conn=mysql.connector.connect(host="localhost",user="root",password="root",database="DjangoORM")
 cur=conn.cursor()
-print("Git connection successfull")
 
 # cur.execute("create database DjangoORM")
 # print("Database Created")
@@ -133,5 +132,5 @@ while True:
         print("Invalid Choice")
         print("-----------------------")
 
-print("Connection Closed")
+
 conn.close()
