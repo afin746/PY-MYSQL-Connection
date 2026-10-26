@@ -133,5 +133,5 @@ while True:
         print("Invalid Choice")
         print("-----------------------")
 
-
+print("Connection Closed")
 conn.close()
